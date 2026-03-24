@@ -1,5 +1,36 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.lislis.xyz'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'blog.lislis.xyz'
 
-theme = "archie"
+theme = "hugo-theme-diary"
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true                      
+
+[Params.author]
+    name = "lislis"
+    website = "https://lislis.xyz"
+    github = "lislis"
+    mastodon = "https://toot.cat/@lislis"
+    
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
