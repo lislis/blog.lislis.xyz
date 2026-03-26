@@ -7,12 +7,15 @@ theme = "hugo-theme-diary"
 pygmentsCodeFences = true
 pygmentsUseClasses = true                      
 
+[Params]
+subtitle = "A blog by lislis"
+
+
 [Params.author]
     name = "lislis"
     website = "https://lislis.xyz"
     github = "lislis"
     mastodon = "https://toot.cat/@lislis"
-    
 
 
 [[menu.main]]
@@ -24,11 +27,6 @@ weight = 1
 name = "All posts"
 url = "/posts"
 weight = 2
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
 
 [[menu.main]]
 name = "Tags"

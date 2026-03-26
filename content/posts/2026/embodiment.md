@@ -3,6 +3,7 @@ title = "Embodiment and Sound"
 date = 2026-02-25
 draft = false
 tags = ['sensors', 'wearables', 'performance', 'OSC', 'ESP32']
+summary = 'Writeup of the collaborative performance project between the acting and creative technologies programs of my uni.'
 +++
 
 ## Context
@@ -10,6 +11,7 @@ tags = ['sensors', 'wearables', 'performance', 'OSC', 'ESP32']
 My study program ([Creative Technologies MA](https://www.filmuniversitaet.de/studium/studienangebot/masterstudiengaenge/creative-technologies)) collaborated with the [acting program](https://www.filmuniversitaet.de/studium/studienangebot/bachelorstudiengaenge/schauspiel) on their final performance for their movement and choreography module.
 
 The idea was that through their bodies and movement they manipulate the sound (Do you get the title now?)
+
 
 ## Tech setup
 
